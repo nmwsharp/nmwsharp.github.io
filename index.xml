@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homepage on Nicholas Sharp</title>
+    <link>http://nmwsharp.com/</link>
+    <description>Recent content in Homepage on Nicholas Sharp</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 24 May 2018 23:09:02 -0400</lastBuildDate>
+    
+	<atom:link href="http://nmwsharp.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Vector Heat Method</title>
+      <link>http://nmwsharp.com/research/vector-heat-method/</link>
+      <pubDate>Thu, 24 May 2018 23:09:02 -0400</pubDate>
+      
+      <guid>http://nmwsharp.com/research/vector-heat-method/</guid>
+      <description>This paper describes a method for efficiently computing parallel transport of tangent vectors on curved surfaces, or more generally, any vector-valued data on a curved manifold. More precisely, it extends a vector field defined over any region to the rest of the domain via parallel transport along shortest geodesics. This basic operation enables fast, robust algorithms for extrapolating level set velocities, inverting the exponential map, computing geometric medians and Karcher/Fréchet means of arbitrary distributions, constructing centroidal Voronoi diagrams, and finding consistently ordered landmarks.</description>
+    </item>
+    
+    <item>
+      <title>Polyscope</title>
+      <link>http://nmwsharp.com/software/polyscope/</link>
+      <pubDate>Thu, 24 May 2018 17:23:56 -0400</pubDate>
+      
+      <guid>http://nmwsharp.com/software/polyscope/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Happly</title>
+      <link>http://nmwsharp.com/software/happly/</link>
+      <pubDate>Thu, 24 May 2018 17:23:55 -0400</pubDate>
+      
+      <guid>http://nmwsharp.com/software/happly/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Variational Surface Cutting</title>
+      <link>http://nmwsharp.com/research/variational-surface-cutting/</link>
+      <pubDate>Thu, 24 May 2018 17:23:55 -0400</pubDate>
+      
+      <guid>http://nmwsharp.com/research/variational-surface-cutting/</guid>
+      <description>This paper develops a global variational approach to cutting curved surfaces so that they can be flattened into the plane with low metric distortion. Such cuts are a critical component in a variety of algorithms that seek to parameterize surfaces over flat domains, or fabricate structures from flat materials. Rather than evaluate the quality of a cut solely based on properties of the curve itself (e.g., its length or curvature), we formulate a flow that directly optimizes the distortion induced by cutting and flattening.</description>
+    </item>
+    
+    <item>
+      <title>Geometry Central</title>
+      <link>http://nmwsharp.com/software/geometry-central/</link>
+      <pubDate>Sat, 24 Mar 2018 17:23:56 -0400</pubDate>
+      
+      <guid>http://nmwsharp.com/software/geometry-central/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Xtalk: a path-based approach for identifying crosstalk between signaling pathways</title>
+      <link>http://nmwsharp.com/research/xtalk/</link>
+      <pubDate>Sun, 24 Apr 2016 17:23:55 -0400</pubDate>
+      
+      <guid>http://nmwsharp.com/research/xtalk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pathways on demand: automated reconstruction of human signaling networks</title>
+      <link>http://nmwsharp.com/research/pathlinker/</link>
+      <pubDate>Thu, 24 Mar 2016 17:23:55 -0400</pubDate>
+      
+      <guid>http://nmwsharp.com/research/pathlinker/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
