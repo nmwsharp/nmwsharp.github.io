@@ -6,10 +6,19 @@
     <description>Recent content in Homepage on Nicholas Sharp</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 24 May 2018 23:09:02 -0400</lastBuildDate>
+    <lastBuildDate>Sat, 04 May 2019 23:09:02 -0400</lastBuildDate>
     
 	<atom:link href="http://nmwsharp.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Navigating Intrinsic Triangulations</title>
+      <link>http://nmwsharp.com/research/navigating-intrinsic-triangulations/</link>
+      <pubDate>Sat, 04 May 2019 23:09:02 -0400</pubDate>
+      
+      <guid>http://nmwsharp.com/research/navigating-intrinsic-triangulations/</guid>
+      <description>This paper describes a method for efficiently computing parallel transport of tangent vectors on curved surfaces, or more generally, any vector-valued data on a curved manifold. More precisely, it extends a vector field defined over any region to the rest of the domain via parallel transport along shortest geodesics. This basic operation enables fast, robust algorithms for extrapolating level set velocities, inverting the exponential map, computing geometric medians and Karcher/Fréchet means of arbitrary distributions, constructing centroidal Voronoi diagrams, and finding consistently ordered landmarks.</description>
+    </item>
     
     <item>
       <title>The Vector Heat Method</title>

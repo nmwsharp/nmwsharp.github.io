@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://nmwsharp.com/</loc>
+    <lastmod>2019-05-04T23:09:02-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://nmwsharp.com/research/navigating-intrinsic-triangulations/</loc>
+    <lastmod>2019-05-04T23:09:02-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://nmwsharp.com/research/vector-heat-method/</loc>
     <lastmod>2018-05-24T23:09:02-04:00</lastmod>
   </url>
@@ -40,11 +50,6 @@
   <url>
     <loc>http://nmwsharp.com/categories/</loc>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://nmwsharp.com/</loc>
-    <lastmod>2018-05-24T23:09:02-04:00</lastmod>
   </url>
   
   <url>
