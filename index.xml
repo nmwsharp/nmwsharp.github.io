@@ -26,7 +26,7 @@
       <pubDate>Thu, 24 May 2018 23:09:02 -0400</pubDate>
       
       <guid>http://nmwsharp.com/research/vector-heat-method/</guid>
-      <description>This paper describes a method for efficiently computing parallel transport of tangent vectors on curved surfaces, or more generally, any vector-valued data on a curved manifold. More precisely, it extends a vector field defined over any region to the rest of the domain via parallel transport along shortest geodesics. This basic operation enables fast, robust algorithms for extrapolating level set velocities, inverting the exponential map, computing geometric medians and Karcher/Fréchet means of arbitrary distributions, constructing centroidal Voronoi diagrams, and finding consistently ordered landmarks.</description>
+      <description></description>
     </item>
     
     <item>

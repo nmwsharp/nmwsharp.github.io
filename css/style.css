@@ -131,3 +131,11 @@ a:active {
 .badge-button:hover {
   text-decoration: none;
 }
+
+.authors-list {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 30px;
+  text-align: center;
+  align: center;
+}
