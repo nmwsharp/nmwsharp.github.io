@@ -21,20 +21,29 @@
     </item>
     
     <item>
+      <title>Polyscope</title>
+      <link>http://nmwsharp.com/software/polyscope/</link>
+      <pubDate>Tue, 24 Jul 2018 17:23:56 -0400</pubDate>
+      
+      <guid>http://nmwsharp.com/software/polyscope/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Geometry Central</title>
+      <link>http://nmwsharp.com/software/geometry-central/</link>
+      <pubDate>Sun, 24 Jun 2018 17:23:56 -0400</pubDate>
+      
+      <guid>http://nmwsharp.com/software/geometry-central/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>The Vector Heat Method</title>
       <link>http://nmwsharp.com/research/vector-heat-method/</link>
       <pubDate>Thu, 24 May 2018 23:09:02 -0400</pubDate>
       
       <guid>http://nmwsharp.com/research/vector-heat-method/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Polyscope</title>
-      <link>http://nmwsharp.com/software/polyscope/</link>
-      <pubDate>Thu, 24 May 2018 17:23:56 -0400</pubDate>
-      
-      <guid>http://nmwsharp.com/software/polyscope/</guid>
       <description></description>
     </item>
     
@@ -54,15 +63,6 @@
       
       <guid>http://nmwsharp.com/research/variational-surface-cutting/</guid>
       <description>This paper develops a global variational approach to cutting curved surfaces so that they can be flattened into the plane with low metric distortion. Such cuts are a critical component in a variety of algorithms that seek to parameterize surfaces over flat domains, or fabricate structures from flat materials. Rather than evaluate the quality of a cut solely based on properties of the curve itself (e.g., its length or curvature), we formulate a flow that directly optimizes the distortion induced by cutting and flattening.</description>
-    </item>
-    
-    <item>
-      <title>Geometry Central</title>
-      <link>http://nmwsharp.com/software/geometry-central/</link>
-      <pubDate>Sat, 24 Mar 2018 17:23:56 -0400</pubDate>
-      
-      <guid>http://nmwsharp.com/software/geometry-central/</guid>
-      <description></description>
     </item>
     
     <item>
