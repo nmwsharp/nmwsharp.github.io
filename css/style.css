@@ -4,7 +4,8 @@ html {
 }
 
 body {
-  font-family: 'Lato', sans-serif !important;
+  /*font-family: 'Lato', sans-serif !important;*/
+  font-family: 'Lora', serif !important;
 }
 
 /* Link colors */
@@ -36,17 +37,28 @@ a:active {
   max-width: 60%;
 }
 
+.title-name {
+  font-family: 'Alegreya SC', serif; 
+  font-size: 2.1em;
+  margin-bottom: -.1em;
+}
+.title-email {
+  font-size: 1.2rem;
+}
+
 .info-text {
   /*background-color: #f2f2f2;*/
 }
 
 
 .link-button {
-  font-size: 1.3rem;
+  font-family: 'Alegreya', serif;
+  font-size: 1.5rem;
   color: #E03838; }
 
 .link-button-small {
-  font-size: 1.1rem;
+  font-family: 'Alegreya', serif;
+  font-size: 1.3rem;
   color: #E03838;
 }
 
@@ -94,6 +106,7 @@ a:active {
 }
 
 .summary-title {
+  font-family: 'Alegreya', serif;
   font-weight: bold;
   font-size: 1.3rem;
   margin-bottom: 0px;
