@@ -145,10 +145,34 @@ a:active {
   text-decoration: none;
 }
 
+.big-badge-button {
+  font-size: 1.0rem;
+  background: #E0383833;
+}
+.big-badge-button:hover {
+  text-decoration: none;
+}
 .authors-list {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 20px;
+  text-align: center;
+  align: center;
+}
+
+.full-title {
   margin-top: 0px;
   margin-bottom: 0px;
   font-size: 30px;
   text-align: center;
   align: center;
+}
+
+.big-teaser-image {
+  padding: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+	max-height: 100%;
+	max-width: auto;
 }
