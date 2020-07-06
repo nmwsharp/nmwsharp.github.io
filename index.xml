@@ -6,10 +6,19 @@
     <description>Recent content in Homepage on Nicholas Sharp</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 04 May 2019 23:09:02 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jul 2020 23:09:02 -0400</lastBuildDate>
     
 	<atom:link href="http://nmwsharp.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>A Laplacian for Nonmanifold Triangle Meshes</title>
+      <link>http://nmwsharp.com/research/nonmanifold-laplacian/</link>
+      <pubDate>Fri, 03 Jul 2020 23:09:02 -0400</pubDate>
+      
+      <guid>http://nmwsharp.com/research/nonmanifold-laplacian/</guid>
+      <description>abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract</description>
+    </item>
     
     <item>
       <title>Navigating Intrinsic Triangulations</title>
