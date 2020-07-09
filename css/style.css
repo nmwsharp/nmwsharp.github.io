@@ -120,12 +120,20 @@ a:active {
 
 .summary-publication-status {
   margin-top: 0px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   color: #E03838;
 }
+
+.summary-extras {
+  padding-left: 5px;
+  padding-right: 5px;
+  font-weight: bolder;
+  background: #E0383833;
+}
+
 .summary-text {
   font-size: 1rem;
-  margin-top: 0px;
+  margin-top: 10px;
   margin-bottom: 10px;
 }
 .summary-image {
