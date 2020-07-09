@@ -130,6 +130,9 @@ a:active {
   font-weight: bolder;
   background: #E0383833;
 }
+.summary-extras:hover {
+  text-decoration: none;
+}
 
 .summary-text {
   font-size: 1rem;
