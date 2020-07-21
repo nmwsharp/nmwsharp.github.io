@@ -40,10 +40,13 @@ a:active {
 .title-name {
   font-family: 'Alegreya SC', serif; 
   font-size: 2.1em;
-  margin-bottom: -.1em;
+  line-height: 90%;
 }
 .title-email {
   font-size: 1.2rem;
+}
+.title-small{
+  font-size: 1.1rem;
 }
 
 .info-text {
@@ -58,10 +61,15 @@ a:active {
 
 .link-button-small {
   font-family: 'Alegreya', serif;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
+  padding-left: .5rem;
+  padding-right: .5rem;
   color: #E03838;
 }
 
+.drop-shadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
 /* Style font awesome */
 .fa {
@@ -120,7 +128,7 @@ a:active {
 
 .summary-publication-status {
   margin-top: 0px;
-  margin-bottom: 5px;
+  margin-bottom: 0px;
   color: #E03838;
 }
 
@@ -136,12 +144,12 @@ a:active {
 
 .summary-text {
   font-size: 1rem;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 2px;
+  margin-bottom: 2px;
 }
 .summary-image {
-  border: 1px solid #ddd;
-  border-radius: 4px;
+  /*border: 1px solid #ddd;*/
+  /*border-radius: 4px;*/
   padding: 5px;
   display: block;
   margin-left: auto;
@@ -163,20 +171,36 @@ a:active {
 .big-badge-button:hover {
   text-decoration: none;
 }
-.authors-list {
+
+.full-title {
+  font-family: 'Alegreya', serif;
+  font-size: 3em;
   margin-top: 0px;
   margin-bottom: 0px;
-  font-size: 20px;
   text-align: center;
   align: center;
 }
 
-.full-title {
+.authors-list {
   margin-top: 0px;
   margin-bottom: 0px;
-  font-size: 30px;
+  font-size: 1.2em;
   text-align: center;
   align: center;
+}
+
+.plain-link {
+  color: #000000 !important;
+  text-decoration: underline !important;
+}
+
+.publication-status {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 1.2em;
+  text-align: center;
+  align: center;
+  color: #E03838;
 }
 
 .big-teaser-image {
@@ -184,6 +208,23 @@ a:active {
   display: block;
   margin-left: auto;
   margin-right: auto;
-	max-height: 100%;
+	max-height: 400px;
 	max-width: auto;
 }
+
+.abstract {
+  text-align: left;
+  padding: 10px;
+}
+
+
+.selected-figure {
+  text-align: center;
+  max-height: 300px; 
+  max-width: 100%;
+  padding: 5px;
+}
+.selected-figure-caption {
+  max-width: 600px;
+}
+
