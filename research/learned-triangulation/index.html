@@ -70,6 +70,8 @@
   <div class="row mb-4">
     <div class="col">
 			
+					<img src=/media/papers/learned-triangulation/learned_triangulation_teaser.jpg class="img-fluid big-teaser-image drop-shadow" alt="big teaser image">
+			
 		</div>
   </div>
   
@@ -77,13 +79,25 @@
     <div class="col">
       <div class="d-flex justify-content-center flex-wrap authors-list">
         
+          <div class="ml-2 mr-2">
+          
+            <a href="http://nmwsharp.com" class="plain-link">Nicholas Sharp<sup>1</sup></a>
+          
+          </div>
+        
+          <div class="ml-2 mr-2">
+          
+            <a href="http://www.lix.polytechnique.fr/~maks/" class="plain-link">Maks Ovsjanikov<sup>2</sup></a>
+          
+          </div>
+        
       </div>
     </div>
   </div>
 
   <div class="row">
     <div class="col authors-list">
-      
+      <sup>1</sup>Carnegie Mellon University  <sup>2</sup>LIX, École Polytechnique
     </div>
   </div>
   <div class="row mb-4">
@@ -97,6 +111,29 @@
       
       <div class="d-flex justify-content-center flex-wrap">
         
+          
+          
+        
+          
+            <a href="/media/papers/learned-triangulation/learned_triangulation.pdf" class="btn-lg big-badge-button ml-2 mr-2 mb-2" role="button">pdf (18mb)</a> 
+          
+        
+          
+            <a href="https://github.com/nmwsharp/learned-triangulation" class="btn-lg big-badge-button ml-2 mr-2 mb-2" role="button">code</a> 
+          
+        
+          
+            <a href="https://arxiv.org/abs/2005.02138" class="btn-lg big-badge-button ml-2 mr-2 mb-2" role="button">arxiv</a> 
+          
+        
+          
+            <a href="/media/papers/learned-triangulation/learned_triangulation_supp.pdf" class="btn-lg big-badge-button ml-2 mr-2 mb-2" role="button">supplement</a> 
+          
+        
+          
+            <a href="/media/papers/learned-triangulation/learned-triangulation.bib" target="_blank" class="btn-lg big-badge-button ml-2 mr-2 mb-2" role="button">bibtex</a> 
+          
+        
       </div>
     </div>
   </div> 
@@ -109,21 +146,13 @@
   <div class="row mb-4">
     <div class="col">
       <p class="abstract">
-      
+      This work considers a new task in geometric deep learning: generating a triangulation among a set of points in 3D space. We present PointTriNet, a differentiable and scalable approach enabling point set triangulation as a layer in 3D learning pipelines. The method iteratively applies two neural networks: a classification network predicts whether a candidate triangle should appear in the triangulation, while a proposal network suggests additional candidates. Both networks are structured as PointNets over nearby points and triangles, using a novel triangle-relative input encoding. Since these learning problems operate on local geometric data, our method is efficient and scalable, and generalizes to unseen shape categories. Our networks are trained in an unsupervised manner from a collection of shapes represented as point clouds. We demonstrate the effectiveness of this approach for classical meshing tasks, robustness to outliers, and as a component in end-to-end learning systems.
       </p>
     </div>
   </div>
   
 
-  <div class="row">
-    <div class="col-1"> </div>
-    <div class="col">
-			<div class="embed-responsive embed-responsive-16by9">
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-    </div>
-    <div class="col-1"> </div>
-  </div>
+  
 
   <br/>
   <br/>
@@ -138,6 +167,80 @@
       
   <div class="container" style="text-align:center;">
   
+    <div class="row justify-content-center mb-1">
+        
+          <img src= /media/papers/learned-triangulation/method_diagram.svg class="figure-img img-fluid selected-figure drop-shadow" 
+                                       alt="An overview of our PointTriNet pipeline, which generates a triangulation by alternating between proposing new triangles and classifying them, each with a neural network. The classifier network identifies triangles which should appear in the triangulation, while the proposal network generates new candidates.">
+        
+    </div>
+    <div class="row justify-content-center">
+        <p class="selected-figure-caption text-center"> An overview of our PointTriNet pipeline, which generates a triangulation by alternating between proposing new triangles and classifying them, each with a neural network. The classifier network identifies triangles which should appear in the triangulation, while the proposal network generates new candidates. </p>
+    </div>
+    <br/>
+    <br/>
+  
+    <div class="row justify-content-center mb-1">
+        
+          <img src= /media/papers/learned-triangulation/network_diagram.svg class="figure-img img-fluid selected-figure drop-shadow" 
+                                       style="max-height:500pt;" 
+                                       alt="The core of our technique is a network which classifies whether a given triangle belongs in a triangulation, as a function of nearby points and already-classified candidates.  All coordinates are encoded relative to the query triangle. A second, similarly-structured network proposes new triangle candidates for subsequent classification.">
+        
+    </div>
+    <div class="row justify-content-center">
+        <p class="selected-figure-caption text-center"> The core of our technique is a network which classifies whether a given triangle belongs in a triangulation, as a function of nearby points and already-classified candidates.  All coordinates are encoded relative to the query triangle. A second, similarly-structured network proposes new triangle candidates for subsequent classification. </p>
+    </div>
+    <br/>
+    <br/>
+  
+    <div class="row justify-content-center mb-1">
+        
+          <img src= /media/papers/learned-triangulation/shapenet_comparison_gallery.jpg class="figure-img img-fluid selected-figure drop-shadow" 
+                                       style="max-height:400pt;" 
+                                       alt="A selection of outputs from PointTriNet and baselines on ShapeNet. The input is 1k points sampled on the surface of the shape, and the output is a mesh using those points as vertices. Constructing point set triangulations which are both accurate and watertight is still an open problem, but our method shows that a differentiable, learning-based approach can yield results competitive with classical computational geometry schemes.">
+        
+    </div>
+    <div class="row justify-content-center">
+        <p class="selected-figure-caption text-center"> A selection of outputs from PointTriNet and baselines on ShapeNet. The input is 1k points sampled on the surface of the shape, and the output is a mesh using those points as vertices. Constructing point set triangulations which are both accurate and watertight is still an open problem, but our method shows that a differentiable, learning-based approach can yield results competitive with classical computational geometry schemes. </p>
+    </div>
+    <br/>
+    <br/>
+  
+    <div class="row justify-content-center mb-1">
+        
+          <img src= /media/papers/learned-triangulation/generalization_gallery.jpg class="figure-img img-fluid selected-figure drop-shadow" 
+                                       alt="Our method is data-driven, but its geometric nature leads to excellent generalization. _Left:_ reconstructing  a synthetic model with vertices of varying regularity and density. _Right:_ reconstructing a 3D range scan of a cathedral. Both use our networks trained on uniformly-sampled ShapeNet.">
+        
+    </div>
+    <div class="row justify-content-center">
+        <p class="selected-figure-caption text-center"> Our method is data-driven, but its geometric nature leads to excellent generalization. <em>Left:</em> reconstructing  a synthetic model with vertices of varying regularity and density. <em>Right:</em> reconstructing a 3D range scan of a cathedral. Both use our networks trained on uniformly-sampled ShapeNet. </p>
+    </div>
+    <br/>
+    <br/>
+  
+    <div class="row justify-content-center mb-1">
+        
+          <img src= /media/papers/learned-triangulation/geometry_processing_gallery.jpg class="figure-img img-fluid selected-figure drop-shadow" 
+                                       alt="PointTriNet directly generates a triangle mesh, opening the door to many standard geometric algorithms. _Left:_ geodesic distance is computed from a source point. _Right:_ a reconstructed object is deformed via an anchor at one endpoint.">
+        
+    </div>
+    <div class="row justify-content-center">
+        <p class="selected-figure-caption text-center"> PointTriNet directly generates a triangle mesh, opening the door to many standard geometric algorithms. <em>Left:</em> geodesic distance is computed from a source point. <em>Right:</em> a reconstructed object is deformed via an anchor at one endpoint. </p>
+    </div>
+    <br/>
+    <br/>
+  
+    <div class="row justify-content-center mb-1">
+        
+          <img src= /media/papers/learned-triangulation/autoencode.jpg class="figure-img img-fluid selected-figure drop-shadow" 
+                                       alt="A preliminary example of an autoencoder, which uses our method to directly output a mesh without any intermediate volumetric representations.  Input point clouds (_left_) are decoded to meshes with 512 vertices (_right_).">
+        
+    </div>
+    <div class="row justify-content-center">
+        <p class="selected-figure-caption text-center"> A preliminary example of an autoencoder, which uses our method to directly output a mesh without any intermediate volumetric representations.  Input point clouds (<em>left</em>) are decoded to meshes with 512 vertices (<em>right</em>). </p>
+    </div>
+    <br/>
+    <br/>
+  
   </div>
 
 
@@ -145,8 +248,7 @@
 
 <div class="row">
   <div class="col">
-    <p>abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract</p>
-
+    
   </div>
 </div>
 
