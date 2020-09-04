@@ -154,12 +154,160 @@
     <div class="row justify-content-center mb-1">
         
           <img src= /media/papers/flip-geodesics/torus_loop.jpg class="figure-img img-fluid selected-figure drop-shadow" 
-                                       style="max-height:300pt;" 
+                                       style="max-height:330pt;" 
                                        alt="Our algorithm straightens an input edge path (top left) to an exact polyhedral geodesic (bottom right).  By systematically flipping edges of an intrinsic triangulation, we provably make the curve shorter on each iteration.">
         
     </div>
     <div class="row justify-content-center">
         <p class="selected-figure-caption text-center"> Our algorithm straightens an input edge path (top left) to an exact polyhedral geodesic (bottom right).  By systematically flipping edges of an intrinsic triangulation, we provably make the curve shorter on each iteration. </p>
+    </div>
+    <br/>
+    <br/>
+  
+    <div class="row justify-content-center mb-1">
+        
+          <img src= /media/papers/flip-geodesics/long_flipping_example.svg class="figure-img img-fluid selected-figure drop-shadow" 
+                                       style="max-height:400pt;" 
+                                       alt="FlipOut shortens a path through three consecutive vertices by pulling it as tight as possible (left, dashed line).  To do so, it performs all valid edge flips in the &#39;wedge&#39; of triangles  (in blue) incident on the middle vertex i.  The curve along the outside of the wedge (far right) is always shorter.">
+        
+    </div>
+    <div class="row justify-content-center">
+        <p class="selected-figure-caption text-center"> FlipOut shortens a path through three consecutive vertices by pulling it as tight as possible (left, dashed line).  To do so, it performs all valid edge flips in the &lsquo;wedge&rsquo; of triangles  (in blue) incident on the middle vertex i.  The curve along the outside of the wedge (far right) is always shorter. </p>
+    </div>
+    <br/>
+    <br/>
+  
+    <div class="row justify-content-center mb-1">
+        
+          <img src= /media/papers/flip-geodesics/path_gallery.jpg class="figure-img img-fluid selected-figure drop-shadow" 
+                                       alt="Basic results from our method, where an initial path is shortened to a geodesic by flipping edges.  Inset values give the runtimes.  All of the resulting curves shown are exact polyhedral geodesics.">
+        
+    </div>
+    <div class="row justify-content-center">
+        <p class="selected-figure-caption text-center"> Basic results from our method, where an initial path is shortened to a geodesic by flipping edges.  Inset values give the runtimes.  All of the resulting curves shown are exact polyhedral geodesics. </p>
+    </div>
+    <br/>
+    <br/>
+  
+    <div class="row justify-content-center mb-1">
+        
+          <img src= /media/papers/flip-geodesics/loop_gallery.jpg class="figure-img img-fluid selected-figure drop-shadow" 
+                                       alt="Our method also applies to loops, here an initial loop is shortened to a geodesic by flipping edges.">
+        
+    </div>
+    <div class="row justify-content-center">
+        <p class="selected-figure-caption text-center"> Our method also applies to loops, here an initial loop is shortened to a geodesic by flipping edges. </p>
+    </div>
+    <br/>
+    <br/>
+  
+    <div class="row justify-content-center mb-1">
+        
+          <img src= /media/papers/flip-geodesics/crossing_boundaries.svg class="figure-img img-fluid selected-figure drop-shadow" 
+                                       alt="Independently straightening each curve can introduce new crossings, which is problematic if the curves are meant to represent region boundaries.  Our flip-based approach naturally preserves the given regions.">
+        
+    </div>
+    <div class="row justify-content-center">
+        <p class="selected-figure-caption text-center"> Independently straightening each curve can introduce new crossings, which is problematic if the curves are meant to represent region boundaries.  Our flip-based approach naturally preserves the given regions. </p>
+    </div>
+    <br/>
+    <br/>
+  
+    <div class="row justify-content-center mb-1">
+        
+          <img src= /media/papers/flip-geodesics/uv_straighten.jpg class="figure-img img-fluid selected-figure drop-shadow" 
+                                       alt="Curve networks arise naturally as texture seams in parameterizations; our algorithm can straighten these networks while preserving the cut topology.  Here, seams on 3D scans of a statue (top) and a panda humerus bone (bottom) are shortened to geodesic, while preserving seam junctions.">
+        
+    </div>
+    <div class="row justify-content-center">
+        <p class="selected-figure-caption text-center"> Curve networks arise naturally as texture seams in parameterizations; our algorithm can straighten these networks while preserving the cut topology.  Here, seams on 3D scans of a statue (top) and a panda humerus bone (bottom) are shortened to geodesic, while preserving seam junctions. </p>
+    </div>
+    <br/>
+    <br/>
+  
+    <div class="row justify-content-center mb-1">
+        
+          <img src= /media/papers/flip-geodesics/segment_straighten.jpg class="figure-img img-fluid selected-figure drop-shadow" 
+                                       alt="Meshes are often segmented by labelling faces, but the resulting regions have unintended jagged edges.  Our method straightens the boundaries of these regions, yielding a more natural smooth regions while provably preserving patch topology; a length threshold prevents excessive drift.  Segmentations from Chen et al. [2009].">
+        
+    </div>
+    <div class="row justify-content-center">
+        <p class="selected-figure-caption text-center"> Meshes are often segmented by labelling faces, but the resulting regions have unintended jagged edges.  Our method straightens the boundaries of these regions, yielding a more natural smooth regions while provably preserving patch topology; a length threshold prevents excessive drift.  Segmentations from Chen et al. [2009]. </p>
+    </div>
+    <br/>
+    <br/>
+  
+    <div class="row justify-content-center mb-1">
+        
+          <img src= /media/papers/flip-geodesics/basic_bezier.jpg class="figure-img img-fluid selected-figure drop-shadow" 
+                                       style="max-height:170pt;" 
+                                       alt="Bézier curves are widely used to represent smooth curves in space. Geodesic shortening provides the necessary operation to construct Bézier curves on surfaces, via midpoint subdivision with de Casteljau&#39;s algorithm.">
+        
+    </div>
+    <div class="row justify-content-center">
+        <p class="selected-figure-caption text-center"> Bézier curves are widely used to represent smooth curves in space. Geodesic shortening provides the necessary operation to construct Bézier curves on surfaces, via midpoint subdivision with de Casteljau&rsquo;s algorithm. </p>
+    </div>
+    <br/>
+    <br/>
+  
+    <div class="row justify-content-center mb-1">
+        
+          <img src= /media/papers/flip-geodesics/cathead_refine.jpg class="figure-img img-fluid selected-figure drop-shadow" 
+                                       style="max-height:150pt;" 
+                                       alt="Straightening a geodesic may introduce long skinny triangles (center); applying intrinsic Delaunay refinement as a post-process yields a high quality triangulation well-suited for subsequent computation (right).">
+        
+    </div>
+    <div class="row justify-content-center">
+        <p class="selected-figure-caption text-center"> Straightening a geodesic may introduce long skinny triangles (center); applying intrinsic Delaunay refinement as a post-process yields a high quality triangulation well-suited for subsequent computation (right). </p>
+    </div>
+    <br/>
+    <br/>
+  
+    <div class="row justify-content-center mb-1">
+        
+          <img src= /media/papers/flip-geodesics/monkey_cdt.jpg class="figure-img img-fluid selected-figure drop-shadow" 
+                                       alt="In the plane, a constrained Delaunay triangulation (CDT) (top center) contains a given set of input segments (top left); CDTs with good angle bounds (top right) are critical for, e.g., numerical simulation. The intrinsic triangulations produced by our geodesic straightening procedure extend CDTs to surface meshes (bottom row).">
+        
+    </div>
+    <div class="row justify-content-center">
+        <p class="selected-figure-caption text-center"> In the plane, a constrained Delaunay triangulation (CDT) (top center) contains a given set of input segments (top left); CDTs with good angle bounds (top right) are critical for, e.g., numerical simulation. The intrinsic triangulations produced by our geodesic straightening procedure extend CDTs to surface meshes (bottom row). </p>
+    </div>
+    <br/>
+    <br/>
+  
+    <div class="row justify-content-center mb-1">
+        
+          <img src= /media/papers/flip-geodesics/pde_examples.jpg class="figure-img img-fluid selected-figure drop-shadow" 
+                                       alt="Our conforming intrinsic triangulations allow geodesic or Bézier curves to be used as boundary conditions for existing algorithms. Top: a smooth cross field on a scan of a human pelvis, aligned with exact geodesic curves constructed via FlipOut. The field is generated with [Knöppel et al. 2013]. Bottom: we construct a Bézier curve on a mechanical part, then solve a Poisson problem with boundary conditions along the curve.">
+        
+    </div>
+    <div class="row justify-content-center">
+        <p class="selected-figure-caption text-center"> Our conforming intrinsic triangulations allow geodesic or Bézier curves to be used as boundary conditions for existing algorithms. Top: a smooth cross field on a scan of a human pelvis, aligned with exact geodesic curves constructed via FlipOut. The field is generated with [Knöppel et al. 2013]. Bottom: we construct a Bézier curve on a mechanical part, then solve a Poisson problem with boundary conditions along the curve. </p>
+    </div>
+    <br/>
+    <br/>
+  
+    <div class="row justify-content-center mb-1">
+        
+          <img src= /media/papers/flip-geodesics/single_source_geodesics.jpg class="figure-img img-fluid selected-figure drop-shadow" 
+                                       style="max-height:200pt;" 
+                                       alt="Our approach can also be used to find geodesics to all vertices from a single source. Perhaps surprisingly, all of these geodesic edges exist simultaneously in a single intrinsic triangulation.">
+        
+    </div>
+    <div class="row justify-content-center">
+        <p class="selected-figure-caption text-center"> Our approach can also be used to find geodesics to all vertices from a single source. Perhaps surprisingly, all of these geodesic edges exist simultaneously in a single intrinsic triangulation. </p>
+    </div>
+    <br/>
+    <br/>
+  
+    <div class="row justify-content-center mb-1">
+        
+          <img src= /media/papers/flip-geodesics/single_source_logmap.jpg class="figure-img img-fluid selected-figure drop-shadow" 
+                                       alt="Our FlipOut procedure can be used to efficiently introduce a ge- odesic edge path from a single source to all other vertices (left). Reading off distance to each vertex and the direction of the edges emanating from the source yields a discretization of the logarithmic map (right). The cyclic color palette encodes the angular component of the logarithmic map, while stripes denote isocontours of its magnitude.">
+        
+    </div>
+    <div class="row justify-content-center">
+        <p class="selected-figure-caption text-center"> Our FlipOut procedure can be used to efficiently introduce a ge- odesic edge path from a single source to all other vertices (left). Reading off distance to each vertex and the direction of the edges emanating from the source yields a discretization of the logarithmic map (right). The cyclic color palette encodes the angular component of the logarithmic map, while stripes denote isocontours of its magnitude. </p>
     </div>
     <br/>
     <br/>
