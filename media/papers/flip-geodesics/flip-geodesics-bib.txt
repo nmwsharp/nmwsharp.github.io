@@ -1,0 +1,10 @@
+@article{sharp2020flipout,
+  author = {Sharp, Nicholas and Crane, Keenan},
+  title = {You Can Find Geodesic Paths in Triangle Meshes by Just Flipping Edges},
+  journal = {ACM Trans. Graph.},
+  volume = {39},
+  number = {6},
+  year = {2020},
+  publisher = {ACM},
+  address = {New York, NY, USA},
+}
