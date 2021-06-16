@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Homepage on Nicholas Sharp</title>
@@ -6,11 +6,7 @@
     <description>Recent content in Homepage on Nicholas Sharp</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 03 Aug 2020 23:09:02 -0400</lastBuildDate>
-    
-	<atom:link href="http://nmwsharp.com/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 03 Aug 2020 23:09:02 -0400</lastBuildDate><atom:link href="http://nmwsharp.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>You Can Find Geodesic Paths in Triangle Meshes by Just Flipping Edges</title>
       <link>http://nmwsharp.com/research/flip-geodesics/</link>
