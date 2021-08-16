@@ -1,0 +1,9 @@
+@article{Sharp:2021:GPI,
+  author = {Sharp, Nicholas and Gillespie, Mark and Crane, Keenan},
+  title = {Geometry Processing with Intrinsic Triangulations},
+  booktitle = {ACM SIGGRAPH 2021 courses},
+  series = {SIGGRAPH '21},
+  year = {2021},
+  publisher = {ACM},
+  address = {New York, NY, USA},
+}

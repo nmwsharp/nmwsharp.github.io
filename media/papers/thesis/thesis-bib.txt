@@ -1,0 +1,7 @@
+@phdthesis{sharp2021int,
+  author = {Nicholas Sharp},
+  title = {Intrinsic Triangulations in Geometry Processing},
+  school = {Carnegie Mellon University},
+  month = {August},
+  year = {2021}
+}
