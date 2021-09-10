@@ -1,0 +1,10 @@
+@article{sharp2021diffusion,
+  author = {Sharp, Nicholas and Attaiki, Souhaib and Crane, Keenan and Ovsjanikov, Maks},
+  title = {DiffusionNet: Discretization Agnostic Learning on Surfaces},
+  journal = {ACM Trans. Graph.},
+  volume = {XX},
+  number = {X},
+  year = {20XX},
+  publisher = {ACM},
+  address = {New York, NY, USA},
+}

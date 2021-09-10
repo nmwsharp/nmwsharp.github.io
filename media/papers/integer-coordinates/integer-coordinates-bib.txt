@@ -1,0 +1,10 @@
+@article{gillespie2021integer
+  author = {Gillespie, Mark and Sharp, Nicholas and Crane, Keenan},
+  title = {Integer Coordinates for Intrinsic Geometry Processing},
+  journal = {ACM Trans. Graph.},
+  volume = {40},
+  number = {6},
+  year = {2021},
+  publisher = {ACM},
+  address = {New York, NY, USA},
+}
