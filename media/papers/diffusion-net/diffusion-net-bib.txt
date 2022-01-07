@@ -2,9 +2,9 @@
   author = {Sharp, Nicholas and Attaiki, Souhaib and Crane, Keenan and Ovsjanikov, Maks},
   title = {DiffusionNet: Discretization Agnostic Learning on Surfaces},
   journal = {ACM Trans. Graph.},
-  volume = {XX},
-  number = {X},
-  year = {20XX},
+  volume = {01},
+  number = {1},
+  year = {2022},
   publisher = {ACM},
   address = {New York, NY, USA},
 }
