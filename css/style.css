@@ -41,6 +41,7 @@ a:active {
   font-family: 'Alegreya SC', serif; 
   font-size: 2.1em;
   line-height: 90%;
+  font-weight:500;
 }
 .title-email {
   font-size: 1.2rem;
@@ -115,8 +116,8 @@ a:active {
 
 .summary-title {
   font-family: 'Alegreya', serif;
-  font-weight: bold;
   font-size: 1.3rem;
+  font-weight:500;
   margin-bottom: 0px;
   margin-top: 0px;
   padding-top: 0px;
