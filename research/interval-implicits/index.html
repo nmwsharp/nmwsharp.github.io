@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400|Alegreya+SC:wght@400|Lora&display=swap" rel="stylesheet">
+
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+
+  <body>
+
+    <div class="container">
+        <div class="row">
+          <div class="col-xl-1"></div>
+          <div class="col col-xl-10">
+            <div class="row mb-3">
+  <div class="col d-none d-md-block">
+    <div class="d-flex justify-content-end flex-wrap">
+    <a href="http://nmwsharp.com/" class="btn link-button" role="button">About</a>
+    <a href="http://nmwsharp.com/#research" class="btn link-button" role="button">Research</a>
+    <a href="http://nmwsharp.com/#software" class="btn link-button" role="button">Software</a>
+    <a href="http://nmwsharp.com//media/nsharp_cv.pdf" target="_blank" class="btn link-button" role="button">CV</a>
+    </div>
+  </div>
+  <div class="col d-md-none">
+    <div class="d-flex justify-content-end flex-wrap">
+    <a href="http://nmwsharp.com/" class="btn link-button-small" role="button">About</a>
+    <a href="http://nmwsharp.com/#research" class="btn link-button-small" role="button">Research</a>
+    <a href="http://nmwsharp.com/#software" class="btn link-button-small" role="button">Software</a>
+    <a href="media/nsharp_cv.pdf" target="_blank" class="btn link-button-small" role="button">CV</a>
+    </div>
+  </div>
+</div> 
+
+
+            <div class="row pt-1 m-1">
+              
+
+<div class="container" style="text-align:center;">
+
+
+
+  <div class="row mb-2">
+    <div class="col">
+      <p class="full-title"> Spelunking the Deep: Guaranteed Queries on General Neural Implicit Surfaces via Range Analysis </p>
+    </div>
+  </div>
+  
+  <div class="row mb-4">
+    <div class="col">
+			
+					<img src=/media/papers/interval-implicits/spelunking_teaser_big.jpg class="img-fluid big-teaser-image drop-shadow" alt="big teaser image">
+			
+		</div>
+  </div>
+  
+  <div class="row">
+    <div class="col">
+      <div class="d-flex justify-content-center flex-wrap authors-list">
+        
+          <div class="ml-2 mr-2">
+          
+            <a href="http://nmwsharp.com" class="plain-link">Nicholas Sharp</a>
+          
+          </div>
+        
+          <div class="ml-2 mr-2">
+          
+            <a href="https://www.cs.toronto.edu/~jacobson/" class="plain-link">Alec Jacobson</a>
+          
+          </div>
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col authors-list">
+      
+    </div>
+  </div>
+  <div class="row mb-2">
+    <div class="col publication-status">
+      ACM Trans. on Graph. (SIGGRAPH 2022)
+    </div>
+  </div>
+  <div class="row mb-3">
+    <div class="col">
+      
+      <p class="extras" style="align: center"> Best Paper Award </p>
+      
+    </div>
+  </div>
+  <div class="row mb-3">
+    <div class="col">
+      
+      <div class="d-flex justify-content-center flex-wrap">
+        
+          
+          
+        
+          
+            <a href="/media/papers/interval-implicits/SpelunkingTheDeep.pdf" class="btn-lg big-badge-button ml-2 mr-2 mb-2" role="button">pdf (4MB)</a> 
+          
+        
+          
+            <a href="https://arxiv.org/abs/2202.02444" class="btn-lg big-badge-button ml-2 mr-2 mb-2" role="button">arxiv</a> 
+          
+        
+          
+            <a href="https://dl.acm.org/doi/10.1145/3528223.3530155" class="btn-lg big-badge-button ml-2 mr-2 mb-2" role="button">acm</a> 
+          
+        
+          
+            <a href="/media/papers/interval-implicits/interval-implicits-bib.txt" target="_blank" class="btn-lg big-badge-button ml-2 mr-2 mb-2" role="button">bibtex</a> 
+          
+        
+      </div>
+    </div>
+  </div> 
+  
+  <div class="row content-header">
+    <div class="col pr-0">
+    <p>Abstract</p>
+    </div>
+  </div>
+  <div class="row mb-4">
+    <div class="col">
+      <p class="abstract">
+      Neural implicit representations, which encode a surface as the level set of a neural network applied to spatial coordinates, have proven to be remarkably effective for optimizing, compressing, and generating 3D geometry. Although these representations are easy to fit, it is not clear how to best evaluate geometric queries on the shape, such as intersecting against a ray or finding a closest point. The predominant approach is to encourage the network to have a signed distance property. However, this property typically holds only approximately, leading to robustness issues, and holds only at the conclusion of training, inhibiting the use of queries in loss functions. Instead, this work presents a new approach to perform queries directly on general neural implicit functions for a wide range of existing architectures. Our key tool is the application of range analysis to neural networks, using automatic arithmetic rules to bound the output of a network over a region; we conduct a study of range analysis on neural networks, and identify variants of affine arithmetic which are highly effective. We use the resulting bounds to develop geometric queries including ray casting, intersection testing, constructing spatial hierarchies, fast mesh extraction, closest-point evaluation, evaluating bulk properties, and more. Our queries can be efficiently evaluated on GPUs, and offer concrete accuracy guarantees even on randomly-initialized networks, enabling their use in training objectives and beyond. We also show a preliminary application to inverse rendering.
+      </p>
+    </div>
+  </div>
+  
+
+  
+
+  <br/>
+  <br/>
+
+  <div class="row content-header">
+    <div class="col pr-0">
+    <p>Selected figures</p>
+    </div>
+  </div>
+  <br/>
+  <br/>
+      
+  <div class="container" style="text-align:center;">
+  
+    <div class="row justify-content-center mb-1">
+        
+          <img src= /media/papers/interval-implicits/interval_vs_affine.jpg class="figure-img img-fluid selected-figure drop-shadow" 
+                                       alt="Queries are performed by applying affine arithmetic, a kind of range analysis, to neural networks. Affine arithmetic models the correlation between quantities to achieve much tighter bounds than simple interval arithmetic.">
+        
+    </div>
+    <div class="row justify-content-center">
+        <p class="selected-figure-caption text-center"> Queries are performed by applying affine arithmetic, a kind of range analysis, to neural networks. Affine arithmetic models the correlation between quantities to achieve much tighter bounds than simple interval arithmetic. </p>
+    </div>
+    <br/>
+    <br/>
+  
+    <div class="row justify-content-center mb-1">
+        
+          <img src= /media/papers/interval-implicits/trace_comparison.jpg class="figure-img img-fluid selected-figure drop-shadow" 
+                                       style="max-height:330pt;" 
+                                       alt="Previously, casting rays against general neural implicit surfaces required small, fixed-sized steps, used here to render an image. Large steps can miss parts of the surface (top, left), but smaller steps are expensive (top, middle). Our approach avoids tuning a step size, and is much faster. (top, right). We measure this effect via the image error at various render time budgets (bottom), varying the fixed step size or our convergence parameter 𝛿, respectively.">
+        
+    </div>
+    <div class="row justify-content-center">
+        <p class="selected-figure-caption text-center"> Previously, casting rays against general neural implicit surfaces required small, fixed-sized steps, used here to render an image. Large steps can miss parts of the surface (top, left), but smaller steps are expensive (top, middle). Our approach avoids tuning a step size, and is much faster. (top, right). We measure this effect via the image error at various render time budgets (bottom), varying the fixed step size or our convergence parameter 𝛿, respectively. </p>
+    </div>
+    <br/>
+    <br/>
+  
+    <div class="row justify-content-center mb-1">
+        
+          <img src= /media/papers/interval-implicits/frustum_diagram.jpg class="figure-img img-fluid selected-figure drop-shadow" 
+                                       style="max-height:170pt;" 
+                                       alt="Range analysis also enables an image-space acceleration of ray casting by testing whole _frustums_ of rays simultaneously, saving repeated similar computation.">
+        
+    </div>
+    <div class="row justify-content-center">
+        <p class="selected-figure-caption text-center"> Range analysis also enables an image-space acceleration of ray casting by testing whole <em>frustums</em> of rays simultaneously, saving repeated similar computation. </p>
+    </div>
+    <br/>
+    <br/>
+  
+    <div class="row justify-content-center mb-1">
+        
+          <img src= /media/papers/interval-implicits/sampling_chair.jpg class="figure-img img-fluid selected-figure drop-shadow" 
+                                       alt="Range analysis can also be used to build spatial acceleration structures like k-D trees over neural implicit surfaces. Sampling a points on a surface is a common task in geometric learning---these spatial hierarchies can be used to sample efficiently, outperforming naive rejection sampling by an order of magnitude for large sample sets.">
+        
+    </div>
+    <div class="row justify-content-center">
+        <p class="selected-figure-caption text-center"> Range analysis can also be used to build spatial acceleration structures like k-D trees over neural implicit surfaces. Sampling a points on a surface is a common task in geometric learning&mdash;these spatial hierarchies can be used to sample efficiently, outperforming naive rejection sampling by an order of magnitude for large sample sets. </p>
+    </div>
+    <br/>
+    <br/>
+  
+    <div class="row justify-content-center mb-1">
+        
+          <img src= /media/papers/interval-implicits/extract_mesh_snake.jpg class="figure-img img-fluid selected-figure drop-shadow" 
+                                       alt="If an explicit mesh is desired, our spatial bounding hierarchy enables an adaptive variant of marching cubes which avoids evaluating the function in large empty regions. This yields the same output as ordinary dense marching cubes, but scales much more efficiently to high-resolution meshes.">
+        
+    </div>
+    <div class="row justify-content-center">
+        <p class="selected-figure-caption text-center"> If an explicit mesh is desired, our spatial bounding hierarchy enables an adaptive variant of marching cubes which avoids evaluating the function in large empty regions. This yields the same output as ordinary dense marching cubes, but scales much more efficiently to high-resolution meshes. </p>
+    </div>
+    <br/>
+    <br/>
+  
+    <div class="row justify-content-center mb-1">
+        
+          <img src= /media/papers/interval-implicits/intersection_ribcage.jpg class="figure-img img-fluid selected-figure drop-shadow" 
+                                       alt="Our queries are used to detect intersections between a pair of general neural implicit shapes. The inset image shows the k-d tree used to bound the space. Each cell has been verified to not overlap with at least one of the two shapes, indicated by the color.">
+        
+    </div>
+    <div class="row justify-content-center">
+        <p class="selected-figure-caption text-center"> Our queries are used to detect intersections between a pair of general neural implicit shapes. The inset image shows the k-d tree used to bound the space. Each cell has been verified to not overlap with at least one of the two shapes, indicated by the color. </p>
+    </div>
+    <br/>
+    <br/>
+  
+    <div class="row justify-content-center mb-1">
+        
+          <img src= /media/papers/interval-implicits/closest_point_deer.jpg class="figure-img img-fluid selected-figure drop-shadow" 
+                                       style="max-height:330pt;" 
+                                       alt="Our method projects query points to the closest point on the neural implicit level set. Black query points are sampled randomly in space, red points are their projections.">
+        
+    </div>
+    <div class="row justify-content-center">
+        <p class="selected-figure-caption text-center"> Our method projects query points to the closest point on the neural implicit level set. Black query points are sampled randomly in space, red points are their projections. </p>
+    </div>
+    <br/>
+    <br/>
+  
+  </div>
+
+
+</div>
+
+<div class="row">
+  <div class="col">
+    
+  </div>
+</div>
+
+
+            </div>
+          </div>
+          <div class="col-xl-1"></div>
+        </div>
+    </div>
+
+    
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+  </body>
+    
+  <footer>
+
+
+<div class="row">
+<div class="col-12">
+<br>
+<br>
+<br>
+<br>
+</div>
+</div>
+
+
+</footer>
+
+
+</html>

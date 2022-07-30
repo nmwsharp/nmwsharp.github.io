@@ -206,6 +206,19 @@ a:active {
   color: #E03838;
 }
 
+.extras {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 1.2em;
+  text-align: center;
+  align: center;
+  color: #E03838;
+  font-weight: bolder;
+}
+.hover {
+  text-decoration: none;
+}
+
 .big-teaser-image {
   padding: 5px;
   display: block;
