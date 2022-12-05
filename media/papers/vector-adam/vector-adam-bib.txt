@@ -1,0 +1,6 @@
+@article{ling2022vectoradam,
+  title={VectorAdam for Rotation Equivariant Geometry Optimization},
+  author={Ling, Selena and Sharp, Nicholas and Jacobson, Alec},
+  journal={Advances in Neural Information Processing Systems},
+  year={2022}
+}

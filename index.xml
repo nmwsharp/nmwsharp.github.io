@@ -6,7 +6,16 @@
     <description>Recent content in Homepage on Nicholas Sharp</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 03 Jul 2022 23:09:02 -0400</lastBuildDate><atom:link href="http://nmwsharp.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 Sep 2022 23:09:02 -0400</lastBuildDate><atom:link href="http://nmwsharp.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>VectorAdam for Rotation Equivariant Geometry Optimization</title>
+      <link>http://nmwsharp.com/research/vector-adam/</link>
+      <pubDate>Thu, 01 Sep 2022 23:09:02 -0400</pubDate>
+      
+      <guid>http://nmwsharp.com/research/vector-adam/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Spelunking the Deep: Guaranteed Queries on General Neural Implicit Surfaces via Range Analysis</title>
       <link>http://nmwsharp.com/research/interval-implicits/</link>

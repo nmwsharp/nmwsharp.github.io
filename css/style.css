@@ -143,6 +143,18 @@ a:active {
   text-decoration: none;
 }
 
+.summary-extras-btn {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: bolder;
+  color: #000;
+  background: #FFDC55;
+}
+.summary-extras-btn:visited{
+  color: #000;
+  background: #FFDC55;
+}
+
 .summary-text {
   font-size: 1rem;
   margin-top: 2px;
