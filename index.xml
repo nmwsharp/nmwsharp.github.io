@@ -6,7 +6,16 @@
     <description>Recent content in Homepage on Nicholas Sharp</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 01 Sep 2022 23:09:02 -0400</lastBuildDate><atom:link href="http://nmwsharp.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 03 Apr 2023 23:09:02 -0400</lastBuildDate><atom:link href="http://nmwsharp.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Data-Free Learning of Reduced-Order Kinematics</title>
+      <link>http://nmwsharp.com/research/neural-physics-subspaces/</link>
+      <pubDate>Mon, 03 Apr 2023 23:09:02 -0400</pubDate>
+      
+      <guid>http://nmwsharp.com/research/neural-physics-subspaces/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>VectorAdam for Rotation Equivariant Geometry Optimization</title>
       <link>http://nmwsharp.com/research/vector-adam/</link>
