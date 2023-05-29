@@ -1,0 +1,6 @@
+@article{sharp2023data,
+  title={Data-Free Learning of Reduced-Order Kinematics},
+  author={Sharp, Nicholas and Romero, Cristian and Jacobson, Alec and Vouga, Etienne and Kry, Paul G and Levin, David IW and Solomon, Justin},
+  booktitle={ACM SIGGRAPH 2023 Conference Proceedings},
+  year={2023}
+}
