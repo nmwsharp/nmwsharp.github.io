@@ -5,7 +5,7 @@
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎓</text></svg>">
 
   <head>
-	<meta name="generator" content="Hugo 0.107.0">
+	<meta name="generator" content="Hugo 0.113.0">
     
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -88,9 +88,45 @@
       <p>I&rsquo;m a researcher in geometry processing, computer graphics/vision, and 3D machine learning.  My work seeks new algorithms and new representations to make computing with geometric data easy, efficient, and reliable.  Currently, I&rsquo;m a Senior Research Scientist at <a href="https://nv-tlabs.github.io/">NVIDIA</a>, based out of Seattle, WA.</p>
 <p>Previously I received my PhD in Computer Science from Carnegie Mellon University advised by <a href="http://www.cs.cmu.edu/~kmcrane/">Keenan Crane</a>, and was a postdoc in the University of Toronto <a href="https://www.dgp.toronto.edu/">DGP</a> with <a href="https://www.cs.toronto.edu/~jacobson/">Alec Jacobson</a>. Even earlier, I was an undergraduate at Virginia Tech, where I worked with <a href="https://bioinformatics.cs.vt.edu/~murali/">T.M. Murali</a> on computational systems biology, and was active in <a href="https://icpc.cs.vt.edu">competitive programming</a>. Outside of work, I&rsquo;m a big fan of long-distance running, hockey, and <a href="http://www.nmwsharp.com/recipes">cooking</a>.</p>
 
+
+      <span class="news-title">News</span> 
+      <div class="expandable-list">
+        <ul>
+          
+            
+            <li><span class="news-date">Mar 2023</span> <span class="news-entry">Serving on the program committee for SIGGRAPH Asia 2023</span> </li>
+            
+          
+            
+            <li><span class="news-date">Aug 2022</span> <span class="news-entry">I&rsquo;ve accepted a full-time role as a Senior Research Scientist at NVIDIA.</span> </li>
+            
+          
+            
+            <li><span class="news-date">Aug 2022</span> <span class="news-entry"><a href="/research/interval-implicits/">Spelunking the Deep</a> recognized as a Best Paper @ SIGGRAPH 2022</span> </li>
+            
+          
+            
+            <li class="extra-item"><span class="news-date">Aug 2022</span> <span class="news-entry"><a href="https://polyscope.run/">Polyscope</a> recognized with the Software Award @ SGP 2022</span> </li>
+            
+          
+            
+            <li class="extra-item"><span class="news-date">Aug 2021</span> <span class="news-entry">Started a postdoc with Alec Jacobson at UofT</span> </li>
+            
+          
+            
+            <li class="extra-item"><span class="news-date">May 2021</span> <span class="news-entry">Defended PhD thesis at CMU</span> </li>
+            
+          
+        </ul>
+      
+        <span class="news-expand-button news-entry" id="newsExpandBtn">...show all...</span>
+
+      </div>
+
+  
     </div>
   </div>
-  
+
   <br>
   
   <a name="research"></a> 
@@ -160,6 +196,52 @@
       <div>
       
         <a href="/media/papers/neural-physics-subspaces/neural_physics_subspaces_bib.txt"  target="_blank" class="btn-sm badge-button" role="button">bibtex</a>
+      
+      </div>
+    
+    </div>
+  </div>
+
+</div>
+
+
+  
+    
+<div class="row content-summary pt-4 pb-2">
+
+  <div class="d-none d-sm-block col-sm-3  m-0 p-0">
+    
+    <img src=/media/papers/flexicubes-isosurface/teaser.jpg class="img-fluid summary-image drop-shadow" alt="teaser img">
+    
+  </div>
+  
+  <div class="col-xs col-sm-9">
+    <p class="summary-title">Flexible Isosurface Extraction for Gradient-Based Mesh Optimization</p>
+    <p class="summary-authors">Tianchang Shen, Jacob Munkberg, Jon Hasselgren, Kangxue Yin, Zian Wang, Wenzheng Chen, Zan Gojcic, Sanja Fidler, Nicholas Sharp* Jun Gao*</p>
+    <p class="summary-publication-status"> 
+      ACM Trans. on Graph. (SIGGRAPH 2023) 
+      
+    </p>
+    
+    <p class="summary-text">Isosurface mesh extraction, for tasks where you iteratively optimize a surface for some objective. Significantly improves fits &amp; element quality vs marching cubes (etc) by introducing additional DoFs that locally adapt the mesh.</p>
+    
+    <div class="d-flex flex-row flex-wrap">
+    
+      <div>
+      
+        <a href="https://research.nvidia.com/labs/toronto-ai/flexicubes/" class="btn-sm badge-button" role="button">project</a>
+      
+      </div>
+    
+      <div>
+      
+        <a href="https://drive.google.com/uc?export=download&amp;id=16ZsUK8ykJBM5la__4DLfjlIzZ4wv6Pkp" class="btn-sm badge-button" role="button">pdf (70MB)</a>
+      
+      </div>
+    
+      <div>
+      
+        <a href="/media/papers/flexicubes-isosurface/flexicubes-isosurface-bib.txt"  target="_blank" class="btn-sm badge-button" role="button">bibtex</a>
       
       </div>
     
@@ -1170,6 +1252,25 @@
 
 
 </div>
+
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const newsExpandBtn = document.getElementById("newsExpandBtn");
+    const extraItems = document.querySelectorAll(".extra-item");
+    let isExpanded = false;
+
+    newsExpandBtn.addEventListener("click", function() {
+      if (isExpanded) {
+        extraItems.forEach(item => item.style.display = "none");
+      } else {
+        extraItems.forEach(item => item.style.display = "list-item");
+      }
+      isExpanded = !isExpanded;
+    });
+  });
+</script>
+
 
             </div>
           </div>

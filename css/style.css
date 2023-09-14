@@ -58,7 +58,8 @@ a:active {
 .link-button {
   font-family: 'Alegreya', serif;
   font-size: 1.5rem;
-  color: #E03838; }
+  color: #E03838; 
+}
 
 .link-button-small {
   font-family: 'Alegreya', serif;
@@ -83,6 +84,45 @@ a:active {
 .fa:hover {
   opacity: 0.7;
   text-decoration: none;
+}
+
+
+/* Expand/collapsible news entries */
+
+.news-title {
+  font-family: 'Alegreya', serif;
+  font-size: 1.3rem;
+  font-weight: 200;
+}
+
+.expandable-list ul {
+  list-style-type:none;
+  margin-left: 1em;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.expandable-list .extra-item {
+  display: none;
+}
+
+.news-date {
+  /* color: #E03838; */
+  display: inline-block;
+  font-weight: 500;
+  inline-size: 4em;
+  font-family: 'Alegreya', serif;
+}
+
+.news-entry {
+  font-size: 0.9rem;
+}
+
+.news-expand-button {
+  cursor: pointer;
+  text-align: center;
+  margin-left: 1em;
+  color: #E03838;
 }
 
 
@@ -256,4 +296,5 @@ a:active {
 .selected-figure-caption {
   max-width: 600px;
 }
+
 
