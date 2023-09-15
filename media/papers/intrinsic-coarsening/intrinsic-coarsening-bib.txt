@@ -1,0 +1,10 @@
+@article{liu2023surface,
+  title={Surface Simplification using Intrinsic Error Metrics},
+  author={Liu, Hsueh-Ti Derek and Gillespie, Mark and Chislett, Benjamin and Sharp, Nicholas and Jacobson, Alec and Crane, Keenan},
+  journal={ACM Transactions on Graphics (TOG)},
+  volume={42},
+  number={4},
+  pages={1--17},
+  year={2023},
+  publisher={ACM New York, NY, USA}
+}
