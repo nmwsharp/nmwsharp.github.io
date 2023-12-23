@@ -6,7 +6,43 @@
     <description>Recent content in Homepage on Nicholas Sharp</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 03 Apr 2023 23:09:02 -0400</lastBuildDate><atom:link href="http://nmwsharp.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 Dec 2023 23:09:02 -0400</lastBuildDate><atom:link href="http://nmwsharp.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Adaptive Shells for Efficient Neural Radiance Field Rendering</title>
+      <link>http://nmwsharp.com/research/adaptive-shells/</link>
+      <pubDate>Sun, 03 Dec 2023 23:09:02 -0400</pubDate>
+      
+      <guid>http://nmwsharp.com/research/adaptive-shells/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>thesis</title>
+      <link>http://nmwsharp.com/news/2023_11_adaptive_shells_award/</link>
+      <pubDate>Fri, 24 Nov 2023 17:23:55 -0400</pubDate>
+      
+      <guid>http://nmwsharp.com/news/2023_11_adaptive_shells_award/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>thesis</title>
+      <link>http://nmwsharp.com/news/2023_08_eg_committee/</link>
+      <pubDate>Thu, 24 Aug 2023 17:23:55 -0400</pubDate>
+      
+      <guid>http://nmwsharp.com/news/2023_08_eg_committee/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TexFusion: Synthesizing 3D Textures with Text-Guided Image Diffusion Models</title>
+      <link>http://nmwsharp.com/research/texfusion/</link>
+      <pubDate>Thu, 03 Aug 2023 23:09:02 -0400</pubDate>
+      
+      <guid>http://nmwsharp.com/research/texfusion/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Data-Free Learning of Reduced-Order Kinematics</title>
       <link>http://nmwsharp.com/research/neural-physics-subspaces/</link>
