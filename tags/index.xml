@@ -4,7 +4,8 @@
     <title>Tags on Nicholas Sharp</title>
     <link>http://nmwsharp.com/tags/</link>
     <description>Recent content in Tags on Nicholas Sharp</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://nmwsharp.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://nmwsharp.com/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

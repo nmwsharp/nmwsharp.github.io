@@ -2,10 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://nmwsharp.com/research/adaptive-shells/</loc>
-    <lastmod>2023-12-03T23:09:02-04:00</lastmod>
-  </url><url>
     <loc>http://nmwsharp.com/</loc>
+    <lastmod>2024-07-03T23:09:02-04:00</lastmod>
+  </url><url>
+    <loc>http://nmwsharp.com/research/surface-filling-curves/</loc>
+    <lastmod>2024-07-03T23:09:02-04:00</lastmod>
+  </url><url>
+    <loc>http://nmwsharp.com/research/simplicits/</loc>
+    <lastmod>2024-07-02T23:09:02-04:00</lastmod>
+  </url><url>
+    <loc>http://nmwsharp.com/research/adaptive-shells/</loc>
     <lastmod>2023-12-03T23:09:02-04:00</lastmod>
   </url><url>
     <loc>http://nmwsharp.com/news/2023_11_adaptive_shells_award/</loc>

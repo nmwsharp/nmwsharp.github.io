@@ -1,0 +1,10 @@
+@article{noma2024surface,
+  title={Surface-Filling Curve Flows via Implicit Medial Axes},
+  author={Noma, Yuta and Sell{\'a}n, Silvia and Sharp, Nicholas and Singh, Karan and Jacobson, Alec},
+  journal={ACM Transactions on Graphics (TOG)},
+  volume={43},
+  number={4},
+  pages={1--12},
+  year={2024},
+  publisher={ACM New York, NY, USA}
+}
