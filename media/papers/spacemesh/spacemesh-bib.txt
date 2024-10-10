@@ -1,0 +1,13 @@
+@inproceedings{spacemesh2024,
+  author = {Tianchang Shen and Zhaoshuo Li and Marc Law and Matan Atzmon and Sanja Fidler and James Lucas and Jun Gao and Nicholas Sharp},
+  title = {SpaceMesh: A Continuous Representation for Learning Manifold Surface Meshes},
+  booktitle = {SIGGRAPH Asia 2024 Conference Papers (SA Conference Papers '24)},
+  year = {2024},
+  location = {Tokyo, Japan},
+  date = {December 3-6, 2024},
+  publisher = {ACM},
+  address = {New York, NY, USA},
+  pages = {11},
+  doi = {10.1145/3680528.3687634},
+  url = {https://doi.org/10.1145/3680528.3687634}
+}
