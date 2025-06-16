@@ -1,0 +1,10 @@
+@inproceedings{Madan:2025:stochastic-barnes-hut,
+  author        = {Madan, Abhishek and Sharp, Nicholas and Williams, Francis and Museth, Ken and Levin, David I.W.},
+  title         = {Stochastic Barnes-Hut Approximation for Fast Summation on the GPU},
+  year          = {2025},
+  publisher     = {Association for Computing Machinery},
+  address       = {New York, NY, USA},
+  url           = {https://doi.org/10.1145/3721238.3730725},
+  doi           = {10.1145/3721238.3730725},
+  booktitle     = {ACM SIGGRAPH 2025 Conference Papers},
+}

@@ -6,8 +6,50 @@
     <description>Recent content in Homepage on Nicholas Sharp</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 08 Oct 2024 23:09:02 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 09 May 2025 23:09:02 -0400</lastBuildDate>
     <atom:link href="http://nmwsharp.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Affine Heat Method</title>
+      <link>http://nmwsharp.com/research/affine-heat-method/</link>
+      <pubDate>Fri, 09 May 2025 23:09:02 -0400</pubDate>
+      <guid>http://nmwsharp.com/research/affine-heat-method/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Uniform Sampling of Surfaces by Casting Rays</title>
+      <link>http://nmwsharp.com/research/uniform-sampling-rays/</link>
+      <pubDate>Thu, 08 May 2025 23:09:02 -0400</pubDate>
+      <guid>http://nmwsharp.com/research/uniform-sampling-rays/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Stochastic Preconditioning for Neural Field Optimization</title>
+      <link>http://nmwsharp.com/research/stochastic-preconditioning/</link>
+      <pubDate>Wed, 07 May 2025 23:09:02 -0400</pubDate>
+      <guid>http://nmwsharp.com/research/stochastic-preconditioning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Stochastic Barnes-Hut Approximation for Fast Summation on the GPU</title>
+      <link>http://nmwsharp.com/research/stochastic-barnes-hut/</link>
+      <pubDate>Tue, 06 May 2025 23:09:02 -0400</pubDate>
+      <guid>http://nmwsharp.com/research/stochastic-barnes-hut/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Putting Rigid Bodies to Rest</title>
+      <link>http://nmwsharp.com/research/computational-dice/</link>
+      <pubDate>Sun, 04 May 2025 23:09:02 -0400</pubDate>
+      <guid>http://nmwsharp.com/research/computational-dice/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Neurally Integrated Finite Elements for Differentiable Elasticity on Evolving Domains</title>
+      <link>http://nmwsharp.com/research/neurally-integrated-finite-elements/</link>
+      <pubDate>Sat, 03 May 2025 23:09:02 -0400</pubDate>
+      <guid>http://nmwsharp.com/research/neurally-integrated-finite-elements/</guid>
+      <description></description>
+    </item>
     <item>
       <title>SpaceMesh: A Continuous Representation for Learning Manifold Surface Meshes</title>
       <link>http://nmwsharp.com/research/space-mesh/</link>

@@ -1,0 +1,10 @@
+@article{ling2025stochastic
+    author = {Ling, Selena and Nimier-David, Merlin and Jacobson, Alec and Sharp, Nicholas},
+    title = {Stochastic Preconditioning for Neural Field Optimization},
+    journal = {ACM Trans. Graph.},
+    volume = {44},
+    number = {4},
+    year = {2025},
+    publisher = {ACM},
+    address = {New York, NY, USA},
+}

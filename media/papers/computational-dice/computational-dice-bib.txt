@@ -1,0 +1,10 @@
+@article{baktash2025putting
+author = {Baktash, Hossein and Sharp, Nicholas and Zhou, Qingnan and Crane, Keenan and Jacobson, Alec},
+title = {Putting Rigid Bodies to Rest},
+journal = {ACM Trans. Graph.},
+volume = {44},
+number = {4},
+year = {2025},
+publisher = {ACM},
+address = {New York, NY, USA},
+}

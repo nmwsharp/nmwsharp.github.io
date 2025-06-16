@@ -1,0 +1,10 @@
+@article{daviet2025neurally,
+  title={Neurally integrated finite elements for differentiable elasticity on evolving domains},
+  author={Daviet, Gilles and Shen, Tianchang and Sharp, Nicholas and Levin, David IW},
+  journal={ACM Transactions on Graphics},
+  volume={44},
+  number={2},
+  pages={1--17},
+  year={2025},
+  publisher={ACM New York, NY}
+}
