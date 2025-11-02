@@ -1,0 +1,7 @@
+@inproceedings{liu2025partfield,
+  title={Partfield: Learning 3d feature fields for part segmentation and beyond},
+  author={Liu, Minghua and Uy, Mikaela Angelina and Xiang, Donglai and Su, Hao and Fidler, Sanja and Sharp, Nicholas and Gao, Jun},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={9704--9715},
+  year={2025}
+}

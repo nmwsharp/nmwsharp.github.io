@@ -2,14 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://nmwsharp.com/research/design-descent/</loc>
+    <lastmod>2025-08-03T23:09:02-04:00</lastmod>
+  </url><url>
     <loc>http://nmwsharp.com/</loc>
-    <lastmod>2025-05-09T23:09:02-04:00</lastmod>
+    <lastmod>2025-08-03T23:09:02-04:00</lastmod>
   </url><url>
     <loc>http://nmwsharp.com/research/affine-heat-method/</loc>
     <lastmod>2025-05-09T23:09:02-04:00</lastmod>
   </url><url>
     <loc>http://nmwsharp.com/research/uniform-sampling-rays/</loc>
     <lastmod>2025-05-08T23:09:02-04:00</lastmod>
+  </url><url>
+    <loc>http://nmwsharp.com/research/partfield/</loc>
+    <lastmod>2025-05-07T23:09:02-04:00</lastmod>
   </url><url>
     <loc>http://nmwsharp.com/research/stochastic-preconditioning/</loc>
     <lastmod>2025-05-07T23:09:02-04:00</lastmod>

@@ -6,8 +6,15 @@
     <description>Recent content in Homepage on Nicholas Sharp</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 09 May 2025 23:09:02 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 03 Aug 2025 23:09:02 -0400</lastBuildDate>
     <atom:link href="http://nmwsharp.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Design for Descent: What Makes a Shape Grammar Easy to Optimize?</title>
+      <link>http://nmwsharp.com/research/design-descent/</link>
+      <pubDate>Sun, 03 Aug 2025 23:09:02 -0400</pubDate>
+      <guid>http://nmwsharp.com/research/design-descent/</guid>
+      <description></description>
+    </item>
     <item>
       <title>The Affine Heat Method</title>
       <link>http://nmwsharp.com/research/affine-heat-method/</link>
@@ -20,6 +27,13 @@
       <link>http://nmwsharp.com/research/uniform-sampling-rays/</link>
       <pubDate>Thu, 08 May 2025 23:09:02 -0400</pubDate>
       <guid>http://nmwsharp.com/research/uniform-sampling-rays/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PartField: Learning 3D Feature Fields for Part Segmentation and Beyond</title>
+      <link>http://nmwsharp.com/research/partfield/</link>
+      <pubDate>Wed, 07 May 2025 23:09:02 -0400</pubDate>
+      <guid>http://nmwsharp.com/research/partfield/</guid>
       <description></description>
     </item>
     <item>
