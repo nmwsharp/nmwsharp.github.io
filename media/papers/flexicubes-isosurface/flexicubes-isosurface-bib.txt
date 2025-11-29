@@ -1,4 +1,4 @@
-@article{shen2023flexible
+@article{shen2023flexible,
 author = {Shen, Tianchang and Munkberg, Jacob and Hasselgren, Jon and Yin, Kangxue and Wang, Zian and Chen, Wenzheng and Gojcic, Zan and Fidler, Sanja and Sharp, Nicholas and Gao, Jun},
 title = {Flexible Isosurface Extraction for Gradient-Based Mesh Optimization},
 year = {2023},
