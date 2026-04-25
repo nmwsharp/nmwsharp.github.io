@@ -1,0 +1,10 @@
+@article{sharp2018variational,
+  title={Variational Surface Cutting},
+  author={Sharp, Nicholas and Crane, Keenan},
+  journal={ACM Transactions on Graphics (TOG)},
+  volume={37},
+  number={4},
+  pages={1--13},
+  year={2018},
+  publisher={ACM New York, NY, USA}
+}

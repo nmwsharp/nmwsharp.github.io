@@ -228,6 +228,44 @@ a:active {
   text-decoration: none;
 }
 
+.bibtex-wrap {
+  display: contents;
+}
+.bibtex-wrap .bibtex-link {
+  border-radius: 0.25rem 0 0 0.25rem !important;
+  margin-right: 0 !important;
+  border-right: 1px solid rgba(224,56,56,0.25) !important;
+}
+.bibtex-wrap .bibtex-copy-btn {
+  border-radius: 0 0.25rem 0.25rem 0 !important;
+  margin-right: 0.25rem !important;
+  cursor: pointer;
+  color: #E03838 !important;
+  position: relative;
+}
+.bibtex-wrap .bibtex-copy-btn .fa {
+  font-size: inherit;
+  padding: 0;
+}
+.bibtex-wrap .bibtex-copy-btn::after {
+  content: 'copy to clipboard';
+  position: absolute;
+  bottom: calc(100% + 4px);
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0,0,0,0.72);
+  color: #fff;
+  padding: 0px 6px;
+  border-radius: 3px;
+  font-size: 0.7rem;
+  white-space: nowrap;
+  display: none;
+  pointer-events: none;
+}
+.bibtex-wrap .bibtex-copy-btn:hover::after {
+  display: block;
+}
+
 .full-title {
   font-family: 'Alegreya', serif;
   font-size: 3em;

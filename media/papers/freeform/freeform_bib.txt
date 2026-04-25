@@ -1,0 +1,6 @@
+@inproceedings{xiang2026freeform,
+  title={FreeForm: Reduced-Order Deformable Simulation from Particle-Based Skinning Eigenmodes},
+  author={Xiang, Donglai and Modi, Vismay and Dagli, Rishit and Trusty, Ty and Daviet, Gilles and Chen, Anka He and Sharp, Nicholas and Levin, David I.W.},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year={2026}
+}

@@ -58,7 +58,7 @@
 
   <div class="row mb-2">
     <div class="col">
-      <p class="full-title"> Variational Surface Cutting </p>
+      <p class="full-title"> Lyra 2.0: Explorable Generative 3D Worlds </p>
     </div>
   </div>
   
@@ -83,7 +83,7 @@
   </div>
   <div class="row mb-2">
     <div class="col publication-status">
-      SIGGRAPH 2018
+      Technical Report
     </div>
   </div>
   <div class="row mb-3">
@@ -97,28 +97,27 @@
       <div class="d-flex justify-content-center flex-wrap">
         
           
-            <a href="http://www.cs.cmu.edu/~kmcrane/Projects/VariationalCuts/paper.pdf" class="btn-lg big-badge-button ml-2 mr-2 mb-2" role="button">pdf (15MB)</a> 
           
         
           
-            <a href="https://github.com/nmwsharp/variational-surface-cutting" class="btn-lg big-badge-button ml-2 mr-2 mb-2" role="button">code</a> 
+            <a href="https://arxiv.org/pdf/2604.13036" class="btn-lg big-badge-button ml-2 mr-2 mb-2" role="button">pdf</a> 
           
         
           
-            <a href="https://www.youtube.com/watch?v=C_qEYfguDTA" class="btn-lg big-badge-button ml-2 mr-2 mb-2" role="button">talk</a> 
+            <a href="https://github.com/nv-tlabs/lyra" class="btn-lg big-badge-button ml-2 mr-2 mb-2" role="button">code</a> 
           
         
           
-            <a href="media/cea_tutorial.pdf" class="btn-lg big-badge-button ml-2 mr-2 mb-2" role="button">shape opt tutorial</a> 
+            <a href="https://huggingface.co/nvidia/Lyra-2.0" class="btn-lg big-badge-button ml-2 mr-2 mb-2" role="button">models</a> 
           
         
           
-            <a href="media/cea_derivations.pdf" class="btn-lg big-badge-button ml-2 mr-2 mb-2" role="button">derivations</a> 
+            <a href="https://arxiv.org/abs/2604.13036" class="btn-lg big-badge-button ml-2 mr-2 mb-2" role="button">arxiv</a> 
           
         
           
             <div class="bibtex-wrap ml-2 mr-2 mb-2">
-              <a href="/media/papers/variational-surface-cutting/variational-surface-cutting-bib.txt" target="_blank" class="btn-lg big-badge-button bibtex-link" role="button">bibtex</a><a class="btn-lg big-badge-button bibtex-copy-btn" data-url="/media/papers/variational-surface-cutting/variational-surface-cutting-bib.txt" onclick="copyBibtex(this)" role="button"><i class="fa fa-clipboard"></i></a>
+              <a href="/media/papers/lyra-2/lyra2_bib.txt" target="_blank" class="btn-lg big-badge-button bibtex-link" role="button">bibtex</a><a class="btn-lg big-badge-button bibtex-copy-btn" data-url="/media/papers/lyra-2/lyra2_bib.txt" onclick="copyBibtex(this)" role="button"><i class="fa fa-clipboard"></i></a>
             </div>
           
         
@@ -162,8 +161,7 @@
 
 <div class="row">
   <div class="col">
-    <p>This paper develops a global variational approach to cutting curved surfaces so that they can be flattened into the plane with low metric distortion. Such cuts are a critical component in a variety of algorithms that seek to parameterize surfaces over flat domains, or fabricate structures from flat materials. Rather than evaluate the quality of a cut solely based on properties of the curve itself (e.g., its length or curvature), we formulate a flow that directly optimizes the distortion induced by cutting and flattening. Notably, we do not have to explicitly parameterize the surface in order to evaluate the cost of a cut, but can instead integrate a simple evolution equation defined on the cut curve itself. We arrive at this flow via a novel application of shape derivatives to the Yamabe equation from conformal geometry. We then develop an Eulerian numerical integrator on triangulated surfaces, which does not restrict cuts to mesh edges and can incorporate user-defined data such as importance or occlusion. The resulting cut curves can be used to drive distortion to arbitrarily low levels, and have a very different character from cuts obtained via purely discrete formulations. We briefly explore potential applications to computational design, as well as connections to space filling curves and the problem of uniform heat distribution.</p>
-
+    
   </div>
 </div>
 

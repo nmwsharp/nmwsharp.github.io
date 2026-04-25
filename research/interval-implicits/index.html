@@ -136,7 +136,9 @@
           
         
           
-            <a href="/media/papers/interval-implicits/interval-implicits-bib.txt" target="_blank" class="btn-lg big-badge-button ml-2 mr-2 mb-2" role="button">bibtex</a> 
+            <div class="bibtex-wrap ml-2 mr-2 mb-2">
+              <a href="/media/papers/interval-implicits/interval-implicits-bib.txt" target="_blank" class="btn-lg big-badge-button bibtex-link" role="button">bibtex</a><a class="btn-lg big-badge-button bibtex-copy-btn" data-url="/media/papers/interval-implicits/interval-implicits-bib.txt" onclick="copyBibtex(this)" role="button"><i class="fa fa-clipboard"></i></a>
+            </div>
           
         
       </div>
@@ -294,7 +296,20 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
   </body>
     
-  <footer>
+  <script>
+function copyBibtex(btn) {
+  fetch(btn.dataset.url)
+    .then(function(r) { return r.text(); })
+    .then(function(text) {
+      navigator.clipboard.writeText(text);
+      var orig = btn.innerHTML;
+      btn.innerHTML = '✓';
+      setTimeout(function() { btn.innerHTML = orig; }, 1500);
+    });
+}
+</script>
+
+<footer>
 
 
 <div class="row">

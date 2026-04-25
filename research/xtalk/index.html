@@ -154,7 +154,20 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
   </body>
     
-  <footer>
+  <script>
+function copyBibtex(btn) {
+  fetch(btn.dataset.url)
+    .then(function(r) { return r.text(); })
+    .then(function(text) {
+      navigator.clipboard.writeText(text);
+      var orig = btn.innerHTML;
+      btn.innerHTML = '✓';
+      setTimeout(function() { btn.innerHTML = orig; }, 1500);
+    });
+}
+</script>
+
+<footer>
 
 
 <div class="row">

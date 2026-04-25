@@ -6,8 +6,15 @@
     <description>Recent content in Homepage on Nicholas Sharp</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Mar 2026 23:09:02 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 01 Apr 2026 23:09:02 -0400</lastBuildDate>
     <atom:link href="http://nmwsharp.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lyra 2.0: Explorable Generative 3D Worlds</title>
+      <link>http://nmwsharp.com/research/lyra-2/</link>
+      <pubDate>Wed, 01 Apr 2026 23:09:02 -0400</pubDate>
+      <guid>http://nmwsharp.com/research/lyra-2/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Learning Convex Decomposition via Feature Fields</title>
       <link>http://nmwsharp.com/research/convex-decomp-learned/</link>
