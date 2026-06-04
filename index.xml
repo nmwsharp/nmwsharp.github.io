@@ -6,20 +6,20 @@
     <description>Recent content in Homepage on Nicholas Sharp</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 May 2026 23:09:02 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 02 Mar 2026 23:09:02 -0400</lastBuildDate>
     <atom:link href="http://nmwsharp.com/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>FreeForm: Reduced-Order Deformable Simulation from Particle-Based Skinning Eigenmodes</title>
-      <link>http://nmwsharp.com/research/freeform/</link>
-      <pubDate>Thu, 28 May 2026 23:09:02 -0400</pubDate>
-      <guid>http://nmwsharp.com/research/freeform/</guid>
-      <description></description>
-    </item>
     <item>
       <title>Learning Convex Decomposition via Feature Fields</title>
       <link>http://nmwsharp.com/research/convex-decomp-learned/</link>
-      <pubDate>Sun, 01 Mar 2026 23:09:02 -0400</pubDate>
+      <pubDate>Mon, 02 Mar 2026 23:09:02 -0400</pubDate>
       <guid>http://nmwsharp.com/research/convex-decomp-learned/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>FreeForm: Reduced-Order Deformable Simulation from Particle-Based Skinning Eigenmodes</title>
+      <link>http://nmwsharp.com/research/freeform/</link>
+      <pubDate>Sun, 01 Mar 2026 23:09:02 -0400</pubDate>
+      <guid>http://nmwsharp.com/research/freeform/</guid>
       <description></description>
     </item>
     <item>
